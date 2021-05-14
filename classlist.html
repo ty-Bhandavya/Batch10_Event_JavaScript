@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=S, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .myClass {
+      background: red;
+    }
+    .myClass1{
+      background: red;
+      } 
+    .myClass2 {
+      background: blue;
+      }
+  </style>
+</head>
+
+<body>
+  <h3> Click on the button and  the class</h3> </br>
+  <input type="button" id="Btn" value="Click me" class="myClass1 myClass2" onclick="getClass();">
+  <script>
+    function getClass() {
+      var e = document.getElementById("Btn");
+      e.classList.add("myClass");
+      alert()
+    }
+
+    // function getClass()  
+    // {  
+    //   var e = document.getElementById("Btn");  
+    //   e.classList.remove("myClass");  
+    // }  
+
+   
+  </script>
+</body>
+
+</html>
